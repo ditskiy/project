@@ -10,3 +10,15 @@
     font-size: 48px;
   }
 }
+.subtitle {
+  @include before_circle_center;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.title-blok {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}

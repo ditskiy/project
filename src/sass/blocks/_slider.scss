@@ -1,0 +1,41 @@
+.my-slider {
+  margin: 0 auto;
+  margin-top: 50px;
+  &__item,
+  .tns-item {
+    display: flex;
+    column-gap: 80px;
+    padding: 50px;
+    width: 970px;
+    height: 600px;
+    background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+    box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+    border-radius: 29px;
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+  &__text {
+    display: block;
+    text-align: center;
+  }
+}
+.prev,
+.next {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(87.32deg, #e2a300 4.47%, #e29500 95.53%);
+  border-radius: 50%;
+  border: none;
+  top: 60%;
+  transform: translateY(-50%);
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}

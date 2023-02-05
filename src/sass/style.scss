@@ -9,6 +9,7 @@
   padding: 0;
 }
 .container {
+  position: relative;
   padding: 0 20px;
   max-width: 1180px;
   margin: 0 auto;
@@ -16,8 +17,12 @@
 @import "blocks/_promo.scss";
 @import "blocks/_sidepanel.scss";
 @import "blocks/menu";
+@import "blocks/technology";
+@import "blocks/portfolio";
+@import "blocks/slider";
 
 @import "blocks/buttons.scss";
 @import "blocks/title";
+@import "base/animate";
 
 @import "media.scss";

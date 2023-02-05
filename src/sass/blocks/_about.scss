@@ -1,0 +1,17 @@
+.about {
+  background: linear-gradient(130.68deg, #414141 0, #2d2d2d 100.52%);
+  padding: 100px 0;
+  &__wrapper {
+    display: flex;
+    column-gap: 70px;
+  }
+  &__text {
+    margin-top: 6px;
+  }
+  &__img {
+    width: 400px;
+  }
+  &__descr {
+    margin-top: 20px;
+  }
+}

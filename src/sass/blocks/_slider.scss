@@ -22,6 +22,22 @@
     text-align: center;
   }
 }
+.tns-nav {
+  position: absolute;
+  z-index: 8;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0px;
+  &-active {
+    background: linear-gradient(87.32deg, #e2a300 4.47%, #e29500 95.53%);
+  }
+  button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+  }
+}
 .prev,
 .next {
   position: absolute;

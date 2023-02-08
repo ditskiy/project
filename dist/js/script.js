@@ -10,13 +10,20 @@ closeElem.addEventListener("click", () => {
   menu.classList.remove("active");
 });
 
-var slider = tns({
+const slider = tns({
   container: ".my-slider",
   items: 1,
   slideBy: "page",
   autoplay: false,
   controls: false,
-  nav: false,
+  responsive: {
+    769: {
+      nav: false,
+    },
+    320: {
+      nav: true,
+    },
+  },
 });
 
 document.querySelector(".prev").addEventListener("click", function () {

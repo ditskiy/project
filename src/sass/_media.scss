@@ -1,5 +1,118 @@
 @media (max-width: 1220px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .promo {
+    &__title {
+      width: 330px;
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  .about {
+    &__wrapper {
+      column-gap: 30px;
+      h2 {
+        font-size: 27px;
+        line-height: 41px;
+      }
+    }
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .promo {
+    &__title {
+      width: 260px;
+      font-size: 26px;
+      line-height: 31px;
+    }
+  }
+  .experiences {
+    &__wrapper {
+      flex-wrap: wrap;
+      margin-top: 0;
+    }
+    &__colom {
+      margin-top: 50px;
+    }
+  }
+  .prev,
+  .next {
+    display: none;
+  }
+  .my-slider {
+    &__item,
+    .tns-item {
+      padding: 30px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
   .sidepanel {
     display: none;
+  }
+  .promo {
+    &__title {
+      width: 260px;
+      font-size: 21px;
+      line-height: 28px;
+    }
+  }
+  .menu {
+    &__block {
+      padding-left: 20px;
+    }
+    &__close {
+      right: 40px;
+    }
+    &__social {
+      bottom: 100px;
+    }
+  }
+  .about {
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+    &__text {
+      margin-top: 20px;
+      h2 {
+        font-size: 22px;
+      }
+    }
+  }
+  .experiences {
+    h2 {
+      font-size: 22px;
+    }
+  }
+  .technology {
+    h2 {
+      font-size: 22px;
+    }
+  }
+  .prev,
+  .next {
+    display: none;
+  }
+  .my-slider {
+    &__item,
+    .tns-item {
+      padding: 20px;
+    }
   }
 }
